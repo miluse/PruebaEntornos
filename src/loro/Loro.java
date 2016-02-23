@@ -13,6 +13,7 @@ public class Loro {
     private String nombre;
     private String color;
     private int edad;
+    
    
     
     public Loro(String nombre, String color, int edad){
@@ -20,6 +21,15 @@ public class Loro {
         this.color = color;
         this.edad = edad;
         
+    }
+    
+    public Loro() {
+        
+    }
+
+    public Loro(String nombre, String color) {
+        this.nombre = nombre;
+        this.color = color;
     }
     
     public String getNombre(){
